@@ -1,8 +1,8 @@
 <script>
-
+  import HomeSection from "./components/home-section/HomeSection.svelte";
 </script>
-<h2>This is a test Page</h2>
+
+<HomeSection />
 
 <style>
-
 </style>

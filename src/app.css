@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;800&display=swap');
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.8rem;
+  color: #333;
+  background: transparent;
+  margin: 0px;
+  border: 3rem #D49C6B solid;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media(max-width: 768px) {
+  body {
+      border: none;
+  }
+}
