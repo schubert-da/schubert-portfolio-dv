@@ -1,16 +1,17 @@
 <script>
-// @ts-nocheck
-
-    let project_name = "kaggle22";
+    // @ts-nocheck
 
     function toggleExpansion() {
         let checkBox = document.getElementById("show-desc");
+        let banner = document.querySelector(".work-banner");
         let chevron = document.querySelector(".chevron.kaggle22");
 
         if (checkBox.checked == true) {
-            chevron.style.transform = "rotate(135deg)";
+            chevron.style.transform = "rotate(-45deg)";
+            banner.style.display = "none";
         } else {
-            chevron.style.transform = "rotate(-45deg)"; 
+            chevron.style.transform = "rotate(135deg)";
+            banner.style.display = "block";
         }
     }
 </script>
@@ -20,6 +21,16 @@
         <div class="work-header-title">
             State of Low-Code in Data
             <div class="chevron kaggle22" />
+        </div>
+        <div class="work-banner">
+            <div class="banner-img-container">
+                <img
+                    src="/projects/Kaggle22/kaggle22-banner.png"
+                    alt="preview for kaggle 2022 project"
+                    class="grid-item"
+                />
+                <div class="filler-rect" />
+            </div>
         </div>
     </label>
     <input
@@ -87,9 +98,31 @@
 </div>
 
 <style>
+    /* PREVIEW IMAGE STYLING */
+    .work-banner {
+        display: block;
+        background-color: #fefefe;
+    }
+
+    .banner-img-container {
+        display: flex;
+        padding: 10px 0 15px 10px;
+        height: 350px;
+    }
+
+    .work-banner .banner-img-container img {
+        box-shadow: none !important;
+        margin-right: 6px;
+    }
+    .work-banner .banner-img-container .filler-rect {
+        width: 100%;
+        height: 100%;
+        background: #aec0b8;
+        box-shadow: none !important;
+        border-left: 5px solid #aaa;
+    }
 
     /* GRID STYLING */
-
     .results-grid {
         background-color: #aec0b8;
 

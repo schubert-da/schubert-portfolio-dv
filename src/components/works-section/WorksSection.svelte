@@ -80,6 +80,7 @@
         opacity: 0;
         height: auto;
         max-height: 0;
+        overflow: hidden;
     }
 
     .container :global(#show-desc) {

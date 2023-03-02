@@ -70,7 +70,7 @@
         width: 50%;
         margin-right: 15rem;
     }
-    
+
     .section-header {
         font-size: 3rem;
         letter-spacing: -0.5px;
@@ -109,5 +109,45 @@
 
     .social-desc {
         font-size: 1.6rem;
+    }
+
+    @media (max-width: 480px) {
+        footer {
+            flex-direction: column;
+            margin: 0;
+        }
+
+        footer .contact {
+            width: 100%;
+        }
+
+        footer .contact .contact-desc {
+            margin-top: 1rem;
+            font-size: 1.4rem;
+        }
+
+        .socials {
+            width: 100%;
+            margin-top: 2.5rem;
+            padding-top: 2rem;
+            border-top: 1px solid #2f3238;
+        }
+
+        .socials .social {
+            margin-bottom: 1.2rem;
+        }
+
+        .social .social-title {
+            font-size: 2rem;
+            margin-bottom: 4px;
+        }
+        .social img {
+            width: 26px;
+            height: 26px;
+        }
+
+        .social .social-desc {
+            font-size: 1.6rem;
+        }
     }
 </style>
