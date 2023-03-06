@@ -89,7 +89,7 @@
 
     .container :global(#show-desc:checked + .details-container) {
         opacity: 1;
-        max-height: 1200px;
+        max-height: 1500px;
         transition: all 1s 0s ease-in;
     }
 
@@ -100,7 +100,6 @@
         transition: max-height 0.5s 0s ease-out, opacity 0.2s 0s ease-out;
     }
 
-    
     .container :global(.chevron) {
         border-style: solid;
         border-width: 0.25em 0.25em 0 0;
@@ -126,5 +125,37 @@
         max-height: 100%;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
             rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    @media (max-width: 480px) {
+        .container {
+            width: fit-content;
+            margin: 1rem;
+        }
+
+        .container :global(.work-container) {
+            margin: 0rem;
+        }
+
+        .container :global(.work-header-title) {
+            letter-spacing: -1.2px;
+            width: auto;
+            font-size: 1.8rem;
+            font-weight: 700;
+            padding: 1rem !important;
+        }
+
+        .container :global(.chevron) {
+            top: 3px;
+        }
+
+        .container :global(.work-field-desc) {
+            font-size: 1.6rem;
+        }
+
+        .container :global(.work-field-title) {
+            font-size: 1.8rem;
+            letter-spacing: -0.4px;
+        }
     }
 </style>

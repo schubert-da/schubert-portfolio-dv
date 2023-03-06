@@ -114,6 +114,7 @@
         box-shadow: none !important;
         margin-right: 6px;
     }
+
     .work-banner .banner-img-container .filler-rect {
         width: 100%;
         height: 100%;
@@ -158,5 +159,29 @@
     .grid-item--line-chart {
         grid-row: 2/4;
         grid-column: 1/2;
+    }
+
+    @media (max-width: 480px) {
+        .banner-img-container {
+            height: auto;
+        }
+        .work-banner .banner-img-container .filler-rect {
+            display: none;
+        }
+
+        .banner-img-container {
+            height: auto;
+        }
+
+        .results-grid {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .grid-item--result {
+            padding-right: 0px;
+            margin-bottom: 2.4rem;
+        }
     }
 </style>
