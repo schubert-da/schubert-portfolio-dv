@@ -1,11 +1,15 @@
 <script>
     import Kaggle22 from "./kaggle-22/Kaggle22.svelte";
+    import Kaggle from "./kaggle/Kaggle.svelte";
+    import Undp from "./undp/UNDP.svelte";
 </script>
 
 <div class="container">
     <div class="section-header" id="works-section">Projects</div>
 
     <Kaggle22 />
+    <Kaggle />
+    <Undp />
 </div>
 
 <style>
@@ -33,8 +37,9 @@
         border-radius: 4px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
             rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        overflow: hidden;
 
-        margin: 0rem 15% 6rem 5%;
+        margin: 0rem 15% 4rem 5%;
     }
 
     .container :global(.work-container > div.details-container > div) {
@@ -83,17 +88,17 @@
         overflow: hidden;
     }
 
-    .container :global(#show-desc) {
+    .container :global(.show-desc-btn) {
         display: none;
     }
 
-    .container :global(#show-desc:checked + .details-container) {
+    .container :global(.show-desc-btn:checked + .details-container) {
         opacity: 1;
         max-height: 1500px;
         transition: all 1s 0s ease-in;
     }
 
-    .container :global(#show-desc:not(:checked) + .details-container) {
+    .container :global(.show-desc-btn:not(:checked) + .details-container) {
         opacity: 0;
         height: auto;
         max-height: 0;
@@ -110,7 +115,7 @@
         right: 10px;
         float: right;
 
-        transform: rotate(-45deg);
+        transform: rotate(135deg);
         vertical-align: top;
         width: 0.45em;
 
@@ -135,6 +140,9 @@
 
         .container :global(.work-container) {
             margin: 0rem;
+            margin-bottom: 1.5rem;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border: 1px solid #aaa;
         }
 
         .container :global(.work-header-title) {
@@ -143,6 +151,7 @@
             font-size: 1.8rem;
             font-weight: 700;
             padding: 1rem !important;
+            border-bottom: 2px solid #aaa;
         }
 
         .container :global(.chevron) {

@@ -1,13 +1,13 @@
 <script>
     // @ts-nocheck
 
-    let projectName = "kaggle22";
-
     function toggleExpansion() {
-        let currentWork = document.querySelector(`.work-container.${projectName}`)
-        let checkBox = currentWork.querySelector(`.show-desc-btn.${projectName}`);
+        let currentWork = document.querySelector(".work-container.kaggle")
+        let checkBox = currentWork.querySelector(".show-desc-btn.kaggle");
         let banner = currentWork.querySelector(".work-banner");
-        let chevron = currentWork.querySelector(`.chevron.${projectName}`);
+        let chevron = currentWork.querySelector(".chevron.kaggle");
+
+        console.log("K")
 
         if (checkBox.checked == true) {
             chevron.style.transform = "rotate(-45deg)";
@@ -19,11 +19,11 @@
     }
 </script>
 
-<div class="{`work-container ${projectName}`}">
-    <label for="{`show-desc-${projectName}`}">
+<div class="work-container kaggle">
+    <label for="show-desc-kaggle">
         <div class="work-header-title">
             State of Low-Code in Data
-            <div class="{`chevron ${projectName}`}" />
+            <div class="chevron kaggle" />
         </div>
         <div class="work-banner">
             <div class="banner-img-container">
@@ -38,9 +38,9 @@
     </label>
     <input
         type="checkbox"
-        name="{`show-desc-${projectName}`}"
-        id="{`show-desc-${projectName}`}"
-        class="{`show-desc-btn ${projectName}`}"
+        name="show-desc-kaggle"
+        id="show-desc-kaggle"
+        class="show-desc-btn kaggle"
         on:click={toggleExpansion}
     />
     <div class="details-container">

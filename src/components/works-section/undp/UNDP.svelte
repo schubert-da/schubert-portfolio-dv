@@ -1,7 +1,7 @@
 <script>
     // @ts-nocheck
 
-    let projectName = "kaggle22";
+    let projectName = "undp";
 
     function toggleExpansion() {
         let currentWork = document.querySelector(`.work-container.${projectName}`)
@@ -22,14 +22,14 @@
 <div class="{`work-container ${projectName}`}">
     <label for="{`show-desc-${projectName}`}">
         <div class="work-header-title">
-            State of Low-Code in Data
+            United Nations Development Program
             <div class="{`chevron ${projectName}`}" />
         </div>
         <div class="work-banner">
             <div class="banner-img-container">
                 <img
-                    src="/projects/Kaggle22/kaggle22-banner.png"
-                    alt="preview for kaggle 2022 project"
+                    src="/projects/UNDP/undp-banner.png"
+                    alt="preview for undp project"
                     class="grid-item"
                 />
                 <div class="filler-rect" />
@@ -83,19 +83,14 @@
                 </div>
             </div>
             <img
-                src="/projects/Kaggle22/area-bi.png"
-                alt="area charts"
-                class="grid-item--area-bi grid-item"
+                src="/projects/UNDP/undp-blocks.png"
+                alt="undp-blocks"
+                class="grid-item--undp-blocks grid-item"
             />
             <img
-                src="/projects/Kaggle22/line-chart.png"
+                src="/projects/UNDP/undp-bars.png"
                 alt="line chart"
-                class="grid-item--line-chart grid-item"
-            />
-            <img
-                src="/projects/Kaggle22/table.png"
-                alt="table"
-                class="grid-item--table grid-item"
+                class="grid-item--undp-bars grid-item"
             />
         </div>
     </div>
@@ -111,20 +106,23 @@
     .banner-img-container {
         display: flex;
         padding: 10px 0 15px 10px;
-        height: 350px;
+        height: 300px;
     }
 
     .work-banner .banner-img-container img {
         box-shadow: none !important;
-        margin-right: 6px;
+        /* border: 1px solid #999; */
+        width: 80%;
+        margin: auto;
     }
 
     .work-banner .banner-img-container .filler-rect {
-        width: 100%;
+        /* width: 100%;
         height: 100%;
         background: #aec0b8;
         box-shadow: none !important;
-        border-left: 5px solid #aaa;
+        border-left: 5px solid #aaa; */
+        display: none;
     }
 
     /* GRID STYLING */
@@ -132,15 +130,15 @@
         background-color: #aec0b8;
 
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         column-gap: 10px;
-        grid-template-rows: repeat(3, 200px);
+        grid-template-rows: repeat(3, 160px);
         row-gap: 10px;
     }
 
     .grid-item--result {
         grid-row: 1/2;
-        grid-column: 1/2;
+        grid-column: 1/3;
 
         box-shadow: none !important;
         padding-right: 20px;
@@ -150,25 +148,21 @@
         margin-top: 0;
     }
 
-    .grid-item--table {
-        grid-row: 3/4;
-        grid-column: 2/4;
-    }
-
-    .grid-item--area-bi {
+    .grid-item--undp-blocks {
         grid-row: 1/3;
-        grid-column: 2/4;
+        grid-column: 3/5;
     }
 
-    .grid-item--line-chart {
+    .grid-item--undp-bars {
         grid-row: 2/4;
-        grid-column: 1/2;
+        grid-column: 1/3;
     }
 
     @media (max-width: 480px) {
         .banner-img-container {
             height: auto;
         }
+
         .work-banner .banner-img-container .filler-rect {
             display: none;
         }
