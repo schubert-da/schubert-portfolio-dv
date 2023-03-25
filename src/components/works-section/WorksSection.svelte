@@ -80,6 +80,19 @@
         line-height: 1.2;
     }
 
+    .container :global(.results-grid a) {
+        display: block;
+        
+        color: #efefef;
+        background: #444;
+        text-decoration: none;
+        font-size: 1.6rem;
+        width: fit-content;
+        border-radius: 2px;
+        padding: 6px 10px;
+        margin: 10px 0;
+    }
+
     /* EXPANSION PANEL STYLING */
     .container :global(.details-container) {
         opacity: 0;

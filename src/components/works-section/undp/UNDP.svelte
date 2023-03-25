@@ -4,8 +4,12 @@
     let projectName = "undp";
 
     function toggleExpansion() {
-        let currentWork = document.querySelector(`.work-container.${projectName}`)
-        let checkBox = currentWork.querySelector(`.show-desc-btn.${projectName}`);
+        let currentWork = document.querySelector(
+            `.work-container.${projectName}`
+        );
+        let checkBox = currentWork.querySelector(
+            `.show-desc-btn.${projectName}`
+        );
         let banner = currentWork.querySelector(".work-banner");
         let chevron = currentWork.querySelector(`.chevron.${projectName}`);
 
@@ -19,11 +23,11 @@
     }
 </script>
 
-<div class="{`work-container ${projectName}`}">
-    <label for="{`show-desc-${projectName}`}">
+<div class={`work-container ${projectName}`}>
+    <label for={`show-desc-${projectName}`}>
         <div class="work-header-title">
             United Nations Development Program
-            <div class="{`chevron ${projectName}`}" />
+            <div class={`chevron ${projectName}`} />
         </div>
         <div class="work-banner">
             <div class="banner-img-container">
@@ -38,9 +42,9 @@
     </label>
     <input
         type="checkbox"
-        name="{`show-desc-${projectName}`}"
-        id="{`show-desc-${projectName}`}"
-        class="{`show-desc-btn ${projectName}`}"
+        name={`show-desc-${projectName}`}
+        id={`show-desc-${projectName}`}
+        class={`show-desc-btn ${projectName}`}
         on:click={toggleExpansion}
     />
     <div class="details-container">
@@ -48,24 +52,37 @@
             <div class="work-field">
                 <div class="work-field-title">Brief</div>
                 <div class="work-field-desc">
-                    For my Kaggle ML and DS Survey 2022 submission, I looked at
-                    how data professionals were using low-code tools to quickly
-                    build and deploy data pipelines without the need for complex
-                    code.
+                    A data story on the work done by the <strong
+                        >UNDP Accelerator Labs Network</strong
+                    > which tracks and documents regional progress towards achieving
+                    the UN's SDGs (Sustainable Development Goals).
                 </div>
             </div>
 
             <div class="work-field">
                 <div class="work-field-title">My approach</div>
                 <div class="work-field-desc">
-                    This competition entry won a runner-up spot in the
-                    competition. It used data from various low-code trend
-                    industry reports as well as Kaggle survey data to look into
-                    the usage of these tools.
+                    In this project I wanted to give a broad overview of the
+                    work done by UNDP and give a sense of the measures adopted
+                    by communities in developing regions. The work would show
+                    the <strong>
+                        importance of grassroots innovation and the value of
+                        local change
+                    </strong>
+                    affected by people solving their most immediate problems.
+
                     <br /><br />
-                    The notebook contains graphs in Python, with more involved graphs
-                    and tables using <strong>Markdown</strong> +
-                    <strong>CSS</strong>.
+
+                    Data included details of the individual solutions recorded
+                    by the Accelerator labs in different countries which formed
+                    the basis of the analysis.
+
+                    <br /><br />
+
+                    I decided on using <strong>Svelte</strong> for the project early
+                    on because the shorter deadline for submission meant that I would
+                    more than likely be reusing charts and the modularity also goes
+                    a long way on these single-page projects.
                 </div>
             </div>
         </div>
@@ -76,11 +93,15 @@
             <div class="grid-item grid-item--result">
                 <div class="work-field-title">The Result</div>
                 <div class="work-field-desc">
-                    This competition entry won a runner-up spot in the
-                    competition. It used data from various low-code trend
-                    industry reports as well as Kaggle survey data to look into
-                    the usage of these tools.
+                    The final short static piece that dove into how grassroots
+                    innovations varied across different regions and their
+                    <strong>readiness to scale to meet local needs</strong>.
+                    <br /><br />
+                    It highlighted the progress of the UNDP in capturing these solutions
+                    and where local efforts are focused.
                 </div>
+
+                <a href="https://schubert-da.github.io/dvs-world-summit/" target="_blank" rel="noreferrer">View project</a>
             </div>
             <img
                 src="/projects/UNDP/undp-blocks.png"
@@ -132,7 +153,7 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         column-gap: 10px;
-        grid-template-rows: repeat(3, 160px);
+        grid-template-rows: repeat(3, 170px);
         row-gap: 10px;
     }
 
@@ -156,6 +177,7 @@
     .grid-item--undp-bars {
         grid-row: 2/4;
         grid-column: 1/3;
+        margin-top: 28px;
     }
 
     @media (max-width: 480px) {
