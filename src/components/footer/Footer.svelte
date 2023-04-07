@@ -7,7 +7,7 @@
         <div class="contact-desc">
             If you're looking for candidates on your Data Team, in need of
             freelance data work, or just have coding questions - please send me
-            a message or <a href="mailto:someone@example.com">email me</a> directly.
+            a message or <a href="mailto:schubertdeabreu2@gmail.com">email me</a> directly.
         </div>
     </div>
     <div class="socials">

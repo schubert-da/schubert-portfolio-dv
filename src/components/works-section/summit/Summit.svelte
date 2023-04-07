@@ -52,37 +52,66 @@
             <div class="work-field">
                 <div class="work-field-title">Brief</div>
                 <div class="work-field-desc">
-                    A data story on the work done by the <strong
-                        >Summit Accelerator Labs Network</strong
-                    > which tracks and documents regional progress towards achieving
-                    the UN's SDGs (Sustainable Development Goals).
+                    The World Data Visualization Prize (2023) was a competition
+                    hosted by the <strong>World Government Summit</strong> which
+                    throws a spotlight on the progress made by world governments
+                    through data.
                 </div>
             </div>
 
             <div class="work-field">
                 <div class="work-field-title">My approach</div>
                 <div class="work-field-desc">
-                    In this project I wanted to give a broad overview of the
-                    work done by Summit and give a sense of the measures adopted
-                    by communities in developing regions. The work would show
-                    the <strong>
-                        importance of grassroots innovation and the value of
-                        local change
-                    </strong>
-                    affected by people solving their most immediate problems.
+                    The World Government Summit provided data on the
+                    achievements of governments in health, poverty, world
+                    hunger, etc. The aim of the competition was to create an
+                    insightful data story to put into context the progress made
+                    by world governments in the last ten years.
 
                     <br /><br />
 
-                    Data included details of the individual solutions recorded
-                    by the Accelerator labs in different countries which formed
-                    the basis of the analysis.
+                    With a large amount of time series data on achievements of
+                    governments in health, poverty, world hunger, etc, I started
+                    by looking for trends in the progress. With each measure we
+                    saw a general trend - there would be steady progress at the
+                    start then it would plateau later on, only to have years
+                    worth of progress erased by the global pandemic in 2019.
 
                     <br /><br />
 
-                    I decided on using <strong>Svelte</strong> for the project early
-                    on because the shorter deadline for submission meant that I would
-                    more than likely be reusing charts and the modularity also goes
-                    a long way on these single-page projects.
+                    My initial goal was to understand exactly how COVID-19 threw
+                    us off track from achieving our goals. However as I started
+                    to look over the data, I quickly realised that
+                    <strong
+                        >in most cases we were far from achieving the set goals</strong
+                    >
+                    even if all things went smoothly - and this is what guided the
+                    new angle that I took this data story. Now my focus was to understand
+                    where global development had stagnated in recent years and how
+                    things worsened with covid.
+
+                    <br /><br />
+                </div>
+
+                <div class="work-field">
+                    <div class="work-field-title">Tools</div>
+                    <div class="work-field-desc">
+                        Svelte seemed a no-brainer for this project - it would
+                        be a longer piece divided with sections for different
+                        metrics, each having their own writeups and charts which
+                        would benefit from a bit of modularity. There would be a
+                        fair bit of reuse too since the general format of each
+                        section would remain the same.
+
+                        <br /><br />
+
+                        Lastly, one tool which made this project MUCH easier was
+                        <a href="https://milton.fun/"><strong>Milton</strong></a>, an
+                        AI2HTML-like plugin for Figma created by the folks over
+                        at The Telegraph. This let me quickly create responsive
+                        charts directly from Figma which greatly sped up my
+                        workflow.
+                    </div>
                 </div>
             </div>
         </div>
@@ -97,11 +126,15 @@
                     innovations varied across different regions and their
                     <strong>readiness to scale to meet local needs</strong>.
                     <br /><br />
-                    It highlighted the progress of the Summit in capturing these solutions
-                    and where local efforts are focused.
+                    It highlighted the progress of the Summit in capturing these
+                    solutions and where local efforts are focused.
                 </div>
 
-                <a href="https://schubert-da.github.io/dvs-world-summit/" target="_blank" rel="noreferrer">View project</a>
+                <a
+                    href="https://schubert-da.github.io/dvs-world-summit/"
+                    target="_blank"
+                    rel="noreferrer">View project</a
+                >
             </div>
             <img
                 src="/projects/Summit/summit-maps.png"
@@ -169,7 +202,7 @@
     .grid-item--result {
         grid-row: 1/4;
         grid-column: 1/2;
-        
+
         padding: 10px 15px;
         background-color: #efefef;
         border-radius: 8px;
@@ -215,11 +248,6 @@
             margin-top: 2rem;
             display: flex;
             flex-direction: column;
-        }
-
-        .grid-item--result {
-            padding-right: 0px;
-            margin-bottom: 2.4rem;
         }
     }
 </style>

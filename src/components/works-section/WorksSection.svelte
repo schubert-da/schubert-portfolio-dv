@@ -109,7 +109,7 @@
 
     .container :global(.show-desc-btn:checked + .details-container) {
         opacity: 1;
-        max-height: 1500px;
+        max-height: 1900px;
         transition: all 1s 0s ease-in;
     }
 
