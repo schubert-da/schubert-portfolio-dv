@@ -175,13 +175,13 @@
         <div class="contact-desc svelte-1w9n8ec">If you&#39;re looking for candidates on your Data Team, in need of
             freelance data work, or just have coding questions - please send me
             a message or <a href="mailto:schubertdeabreu2@gmail.com">email me</a> directly.</div></div> 
-    <div class="socials svelte-1w9n8ec"><div class="social svelte-1w9n8ec"><div class="social-title svelte-1w9n8ec"><a href="https://twitter.com/schubertda1"><img src="/icons/twitter2.png" alt="twitter logo" class="svelte-1w9n8ec"/>Twitter</a></div> 
+    <div class="socials svelte-1w9n8ec"><div class="social svelte-1w9n8ec"><div class="social-title svelte-1w9n8ec"><a href="https://twitter.com/schubertda1"><img src="icons/twitter2.png" alt="twitter logo" class="svelte-1w9n8ec"/>Twitter</a></div> 
             <div class="social-desc svelte-1w9n8ec">Probably the best place to check out my work - If I&#39;ve posted it
                 online it&#39;s probably here.</div></div> 
-        <div class="social svelte-1w9n8ec"><div class="social-title svelte-1w9n8ec"><a href="mailto:schubertdeabreu2@gmail.com"><img src="/icons/mail.png" alt="mail logo" class="svelte-1w9n8ec"/> Mail</a></div> 
+        <div class="social svelte-1w9n8ec"><div class="social-title svelte-1w9n8ec"><a href="mailto:schubertdeabreu2@gmail.com"><img src="icons/mail.png" alt="mail logo" class="svelte-1w9n8ec"/> Mail</a></div> 
             <div class="social-desc svelte-1w9n8ec">Email me if you want to get in touch for work opportunities,
                 collaborations or even just to chat.</div></div> 
-        <div class="social linkedin svelte-1w9n8ec"><div class="social-title svelte-1w9n8ec"><a href="https://www.linkedin.com/in/schubert-de-abreu-47a56037/"><img src="/icons/linkedin.png" alt="linkedin logo" class="svelte-1w9n8ec"/> LinkedIn</a></div></div> 
-        <div class="social svelte-1w9n8ec"><div class="social-title svelte-1w9n8ec"><a href="https://www.kaggle.com/spitfire2nd"><img src="/icons/kaggle.png" alt="kaggle logo" class="svelte-1w9n8ec"/> Kaggle</a></div> 
+        <div class="social linkedin svelte-1w9n8ec"><div class="social-title svelte-1w9n8ec"><a href="https://www.linkedin.com/in/schubert-de-abreu-47a56037/"><img src="icons/linkedin.png" alt="linkedin logo" class="svelte-1w9n8ec"/> LinkedIn</a></div></div> 
+        <div class="social svelte-1w9n8ec"><div class="social-title svelte-1w9n8ec"><a href="https://www.kaggle.com/spitfire2nd"><img src="icons/kaggle.png" alt="kaggle logo" class="svelte-1w9n8ec"/> Kaggle</a></div> 
             <div class="social-desc svelte-1w9n8ec">I occassionally post exploratory data visualisation notebooks in
                 Python and D3.</div></div></div>`,o(e,"class","svelte-1w9n8ec")},m(s,r){b(s,e,r)},p:h,i:h,o:h,d(s){s&&k(e)}}}class $e extends L{constructor(e){super(),D(this,e,null,be,q,{})}}function _e(t){let e,s,r,l,n,c,v,g;return e=new ne({}),r=new de({}),n=new ke({}),v=new $e({}),{c(){N(e.$$.fragment),s=m(),N(r.$$.fragment),l=m(),N(n.$$.fragment),c=m(),N(v.$$.fragment)},m(i,d){T(e,i,d),b(i,s,d),T(r,i,d),b(i,l,d),T(n,i,d),b(i,c,d),T(v,i,d),g=!0},p:h,i(i){g||(x(e.$$.fragment,i),x(r.$$.fragment,i),x(n.$$.fragment,i),x(v.$$.fragment,i),g=!0)},o(i){M(e.$$.fragment,i),M(r.$$.fragment,i),M(n.$$.fragment,i),M(v.$$.fragment,i),g=!1},d(i){I(e,i),i&&k(s),I(r,i),i&&k(l),I(n,i),i&&k(c),I(v,i)}}}class je extends L{constructor(e){super(),D(this,e,null,_e,q,{})}}new je({target:document.getElementById("app")});

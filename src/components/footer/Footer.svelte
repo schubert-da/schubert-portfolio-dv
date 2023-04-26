@@ -14,7 +14,7 @@
         <div class="social">
             <div class="social-title">
                 <a href="https://twitter.com/schubertda1">
-                    <img src="/icons/twitter2.png" alt="twitter logo" />Twitter
+                    <img src="icons/twitter2.png" alt="twitter logo" />Twitter
                 </a>
             </div>
             <div class="social-desc">
@@ -25,7 +25,7 @@
         <div class="social">
             <div class="social-title">
                 <a href="mailto:schubertdeabreu2@gmail.com">
-                    <img src="/icons/mail.png" alt="mail logo" /> Mail
+                    <img src="icons/mail.png" alt="mail logo" /> Mail
                 </a>
             </div>
             <div class="social-desc">
@@ -38,14 +38,14 @@
                 <a
                     href="https://www.linkedin.com/in/schubert-de-abreu-47a56037/"
                 >
-                    <img src="/icons/linkedin.png" alt="linkedin logo" /> LinkedIn
+                    <img src="icons/linkedin.png" alt="linkedin logo" /> LinkedIn
                 </a>
             </div>
         </div>
         <div class="social">
             <div class="social-title">
                 <a href="https://www.kaggle.com/spitfire2nd">
-                    <img src="/icons/kaggle.png" alt="kaggle logo" /> Kaggle
+                    <img src="icons/kaggle.png" alt="kaggle logo" /> Kaggle
                 </a>
             </div>
             <div class="social-desc">
