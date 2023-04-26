@@ -28,7 +28,7 @@
         <div class="work-banner">
             <div class="banner-img-container">
                 <img
-                    src="/projects/Kaggle22/kaggle22-banner.png"
+                    src="projects/Kaggle22/kaggle22-banner.png"
                     alt="preview for kaggle 2022 project"
                     class="grid-item"
                 />
@@ -83,17 +83,17 @@
                 </div>
             </div>
             <img
-                src="/projects/Kaggle22/area-bi.png"
+                src="projects/Kaggle22/area-bi.png"
                 alt="area charts"
                 class="grid-item--area-bi grid-item"
             />
             <img
-                src="/projects/Kaggle22/line-chart.png"
+                src="projects/Kaggle22/line-chart.png"
                 alt="line chart"
                 class="grid-item--line-chart grid-item"
             />
             <img
-                src="/projects/Kaggle22/table.png"
+                src="projects/Kaggle22/table.png"
                 alt="table"
                 class="grid-item--table grid-item"
             />

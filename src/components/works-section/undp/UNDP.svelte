@@ -32,7 +32,7 @@
         <div class="work-banner">
             <div class="banner-img-container">
                 <img
-                    src="/projects/UNDP/undp-banner.png"
+                    src="projects/UNDP/undp-banner.png"
                     alt="preview for undp project"
                     class="grid-item"
                 />
@@ -104,12 +104,12 @@
                 <a href="https://schubert-da.github.io/undp/" target="_blank" rel="noreferrer">View project</a>
             </div>
             <img
-                src="/projects/UNDP/undp-blocks.png"
+                src="projects/UNDP/undp-blocks.png"
                 alt="undp-blocks"
                 class="grid-item--undp-blocks grid-item"
             />
             <img
-                src="/projects/UNDP/undp-bars.png"
+                src="projects/UNDP/undp-bars.png"
                 alt="line chart"
                 class="grid-item--undp-bars grid-item"
             />

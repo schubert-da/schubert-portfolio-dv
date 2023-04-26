@@ -32,7 +32,7 @@
         <div class="work-banner">
             <div class="banner-img-container">
                 <img
-                    src="/projects/Summit/summit-banner.png"
+                    src="projects/Summit/summit-banner.png"
                     alt="preview for summit project"
                     class="grid-item"
                 />
@@ -137,17 +137,17 @@
                 >
             </div>
             <img
-                src="/projects/Summit/summit-maps.png"
+                src="projects/Summit/summit-maps.png"
                 alt="summit-maps"
                 class="grid-item--summit-maps grid-item"
             />
             <img
-                src="/projects/Summit/summit-bar-chart.png"
+                src="projects/Summit/summit-bar-chart.png"
                 alt="summit-bar-chart"
                 class="grid-item--summit-bar-chart grid-item"
             />
             <img
-                src="/projects/Summit/summit-table.png"
+                src="projects/Summit/summit-table.png"
                 alt="summit-table"
                 class="grid-item--summit-table grid-item"
             />
