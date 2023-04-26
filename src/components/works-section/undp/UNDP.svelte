@@ -101,7 +101,7 @@
                     and where local efforts are focused.
                 </div>
 
-                <a href="https://schubert-da.github.io/dvs-world-summit/" target="_blank" rel="noreferrer">View project</a>
+                <a href="https://schubert-da.github.io/undp/" target="_blank" rel="noreferrer">View project</a>
             </div>
             <img
                 src="/projects/UNDP/undp-blocks.png"

@@ -81,6 +81,8 @@
                     industry reports as well as Kaggle survey data to look into
                     the usage of these tools.
                 </div>
+
+                <a href="https://www.kaggle.com/code/spitfire2nd/the-state-of-low-no-code-in-data" target="_blank" rel="noreferrer">View project</a>
             </div>
             <img
                 src="/projects/Kaggle22/area-bi.png"
