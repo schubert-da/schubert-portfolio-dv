@@ -3,12 +3,14 @@
     import Kaggle from "./kaggle/Kaggle.svelte";
     import Undp from "./undp/UNDP.svelte";
     import Summit from "./summit/Summit.svelte";
+    import B2P from "./b2p/B2P.svelte";
 </script>
 
 <div class="container">
     <div class="section-header" id="works-section">Projects</div>
 
     <Kaggle22 />
+    <B2P />
     <!-- <Kaggle /> -->
     <Undp />
     <Summit />
