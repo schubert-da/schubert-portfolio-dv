@@ -1,0 +1,16 @@
+/* ANIMATIONS */
+
+@keyframes fade-in {
+    from { scale: 0.95; opacity: 0; }
+    to { scale: 1; opacity: 1; }
+}
+
+/* APPLYING ANIMATIONS */
+
+.work-container {
+    animation: fade-in ease-in;
+    animation-timeline: view();
+    animation-range-start: 0px;
+    animation-range-end: 350px;
+    animation-fill-mode: forwards;
+  }
