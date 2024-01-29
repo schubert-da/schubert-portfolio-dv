@@ -1,4 +1,5 @@
 <script>
+    import Revisual from "./revisual/Revisual.svelte";
     import Kaggle22 from "./kaggle-22/Kaggle22.svelte";
     import Kaggle from "./kaggle/Kaggle.svelte";
     import Undp from "./undp/UNDP.svelte";
@@ -9,6 +10,7 @@
 <div class="container">
     <div class="section-header" id="works-section">Projects</div>
 
+    <Revisual />
     <Kaggle22 />
     <B2P />
     <!-- <Kaggle /> -->
