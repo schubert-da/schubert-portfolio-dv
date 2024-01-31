@@ -11,11 +11,11 @@
     <div class="section-header" id="works-section">Projects</div>
 
     <Revisual />
-    <Kaggle22 />
-    <B2P />
-    <!-- <Kaggle /> -->
-    <Undp />
     <Summit />
+    <Undp />
+    <B2P />
+    <Kaggle22 />
+    <!-- <Kaggle /> -->
 </div>
 
 <style>

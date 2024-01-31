@@ -8,7 +8,7 @@
             <div class="skill-group-header">I have worked with</div>
             <div class="skill-group-desc">
                 These are some of the things I picked up working in a
-                professional setting, as a Frontend Dev for two years.
+                professional setting, as a Software and Data Visualisation Engineer for over three years.
             </div>
         </div>
         <div class="skill-group">

@@ -14,6 +14,8 @@
             I have a passion for using data to tell stories and solve problems, and
             I am constantly seeking out new ways to use visualization to make data
             more accessible and meaningful to a wide range of audiences.
+            <br /><br />
+            Currently I am looking for roles (full-time or contract) as Software and Data Visualisation Engineer.
         </div>
     </div>
 </div>

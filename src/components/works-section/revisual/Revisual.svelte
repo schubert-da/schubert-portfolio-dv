@@ -1,7 +1,7 @@
 <script>
     // @ts-nocheck
 
-    let projectName = "summit";
+    let projectName = "revisual";
 
     function toggleExpansion() {
         let currentWork = document.querySelector(
