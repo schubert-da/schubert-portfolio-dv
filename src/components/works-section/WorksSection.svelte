@@ -4,6 +4,7 @@
     import Kaggle from "./kaggle/Kaggle.svelte";
     import Undp from "./undp/UNDP.svelte";
     import Summit from "./summit/Summit.svelte";
+    import WorksSummit from "./summit/WorksSummit.svelte";
     import B2P from "./b2p/B2P.svelte";
 </script>
 
@@ -11,6 +12,7 @@
     <div class="section-header" id="works-section">Projects</div>
 
     <Revisual />
+    <WorksSummit />
     <Summit />
     <Undp />
     <B2P />
