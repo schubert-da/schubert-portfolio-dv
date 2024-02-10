@@ -129,6 +129,8 @@
 
 <style lang="scss">
     .work-container--redesign {
+        --small-screen-breakpoint: 600px;
+        max-width: 95vw;
 
         margin-bottom: 30px;
 
@@ -175,7 +177,7 @@
                 .image-track {
                     --track-padding: 3px;
 
-                    height: 70vh;
+                    height: 70vmin;
                     border: 1px solid #afafaf;
                     width: calc(50% - var(--track-padding));
                     overflow: hidden;
@@ -258,6 +260,42 @@
                         opacity: 0.9;
                         transform: scale(1.01);
                         box-shadow: rgba(3, 0, 0, 0.25) 0px 4px 5px,
+                    }
+                }
+            }
+        }
+    }
+
+    @media(max-width: 950px) {
+
+        .work-container--redesign{
+
+            .work-header{
+                padding: 15px;
+                display: flex;
+                flex-direction: column-reverse;
+
+                .text-container {
+                    width: 100%;
+                    margin-bottom: 20px;
+
+                    .title h2 {
+                        font-size: 30px;
+                        margin-top: 0px;
+                        margin-bottom: 10px;
+                        line-height: 1.1;
+                    }
+
+                    .sub-title {
+                        font-size: 16px;
+                    }
+                }
+
+                .image-container {
+                    width: 100%;
+
+                    .image-track {
+                        height: 90vmin;
                     }
                 }
             }
