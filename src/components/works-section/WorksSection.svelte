@@ -1,4 +1,6 @@
 <script>
+    import Scroller from '@sveltejs/svelte-scroller';
+
     import Revisual from "./revisual/Revisual.svelte";
     import Kaggle22 from "./kaggle-22/Kaggle22.svelte";
     import Kaggle from "./kaggle/Kaggle.svelte";
@@ -6,13 +8,23 @@
     import Summit from "./summit/Summit.svelte";
     import WorksSummit from "./summit/WorksSummit.svelte";
     import B2P from "./b2p/B2P.svelte";
+
+    let index, offset, progress;
 </script>
 
 <div class="container">
     <div class="section-header" id="works-section">Projects</div>
 
-    <Revisual />
-    <WorksSummit />
+    <Scroller top="{0.2}" bottom="{0.8}" query={"div.work-container--redesign"} bind:index bind:offset bind:progress>
+        <div slot="background" style="z-index: 100">
+            <!-- EMPTY BACKGROUND -->
+        </div>
+      
+        <div slot="foreground">
+            <WorksSummit index={0} scrollInfo={{index, offset, progress}}/>
+            <WorksSummit index={1} scrollInfo={{index, offset, progress}}/>
+        </div>
+      </Scroller>
     <Summit />
     <Undp />
     <B2P />
