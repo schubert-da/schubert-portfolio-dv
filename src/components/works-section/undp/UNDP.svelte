@@ -65,10 +65,8 @@
                     In this project I wanted to give a broad overview of the
                     work done by UNDP and give a sense of the measures adopted
                     by communities in developing regions. The work would show
-                    the <strong>
-                        importance of grassroots innovation and the value of
-                        local change
-                    </strong>
+                    the <strong> importance of grassroots innovation and the 
+                    value of local change </strong>
                     affected by people solving their most immediate problems.
 
                     <br /><br />
