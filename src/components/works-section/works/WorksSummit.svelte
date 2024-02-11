@@ -19,7 +19,8 @@
     }
     
 </script>
-<div 
+<div
+    id="project-container-{index}"
     class="work-container--redesign" 
     class:active={index === scrollInfo.index}
 >
@@ -129,176 +130,12 @@
 
 <style lang="scss">
     .work-container--redesign {
-        --small-screen-breakpoint: 600px;
-        max-width: 95vw;
-
-        margin-bottom: 30px;
-
-        transition: transform 0.2s ease-in;
-        &.active {
-            transform: scale(1.02);
+        &.image-track-1 {
+            background-color: #efefef;
         }
 
-        .work-header {
-            padding: 25px;
-            background-color: #fefefe;
-            border: 1px solid #d2d2d2;
-            border-radius: 15px;
-
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            
-            cursor: pointer;
-
-            box-shadow:
-                rgba(0, 0, 0, 0.25) 0px 14px 28px,
-                rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
-            .text-container {
-                width: 30%;
-
-                .title h2 {
-                    font-size: 36px;
-                    line-height: 1.0;
-                    letter-spacing: -2px;
-                }
-            }
-
-            .image-container {
-                width: 66%;
-
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-
-                .image-track {
-                    --track-padding: 3px;
-
-                    height: 70vmin;
-                    border: 1px solid #afafaf;
-                    width: calc(50% - var(--track-padding));
-                    overflow: hidden;
-
-                    position: relative;
-
-                    &:first-of-type {
-                        margin-right: var(--track-padding);
-                    }
-
-                    img {
-                        transition-timing-function: ease-in-out;
-                    }
-
-                    &.image-track-1 {
-                        background-color: #efefef;
-
-                        img {
-                            // transform: translate(-10%, -50%);
-                        }
-                    }
-
-                    &.image-track-2 {
-                        background-color: #efefef;
-
-                        img {
-                            // transform: translate(-2%, -20%);
-                        }
-                    }
-                }
-            }
-        }
-
-        .work-body {
-            --body-overlap: 20px;
-                
-            position: relative;
-            z-index: -1;
-
-            margin-top: calc(-1 * var(--body-overlap));
-            padding: calc(20px + var(--body-overlap)) 30px 30px 30px;
-
-            background-color: #98ACB1;
-
-            border: 4px solid #F5F5F5;
-            border-bottom-left-radius: 15px;
-            border-bottom-right-radius: 15px;
-
-            box-shadow:
-                rgba(0, 0, 0, 0.25) 0px 14px 28px,
-                rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
-            .body-section {
-                width: clamp(300px, 70%, 60ch);
-                margin: 0 auto 20px auto;
-
-                .section-title h2{
-                    margin-top: 0;
-                    margin-bottom: 5px;
-                }
-
-                a.site-link {
-                    display: block;
-                    color: #efefef;
-                    background: #444;
-                    text-transform: uppercase;
-
-                    text-decoration: none;
-                    font-size: 1.6rem;
-
-                    width: fit-content;
-                    border: 2px solid #efefef;
-                    border-radius: 2px;
-                    padding: 6px 10px;
-                    margin: 10px 0;
-
-                    transition: all 0.2s ease-in;
-
-                    &:hover {
-                        opacity: 0.9;
-                        transform: scale(1.01);
-                        box-shadow: rgba(3, 0, 0, 0.25) 0px 4px 5px,
-                    }
-                }
-            }
-        }
-    }
-
-    @media(max-width: 950px) {
-
-        .work-container--redesign{
-
-            .work-header{
-                padding: 15px;
-                display: flex;
-                flex-direction: column-reverse;
-
-                .text-container {
-                    width: 100%;
-                    margin-bottom: 20px;
-
-                    .title h2 {
-                        font-size: 30px;
-                        margin-top: 0px;
-                        margin-bottom: 10px;
-                        line-height: 1.1;
-                    }
-
-                    .sub-title {
-                        font-size: 16px;
-                    }
-                }
-
-                .image-container {
-                    width: 100%;
-
-                    .image-track {
-                        height: 90vmin;
-                    }
-                }
-            }
+        &.image-track-2 {
+            background-color: #efefef;
         }
     }
 </style>
