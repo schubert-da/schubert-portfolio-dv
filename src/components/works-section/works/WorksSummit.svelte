@@ -103,6 +103,13 @@
             </div>
 
             <div class="body-section">
+                <img
+                    src="/projects/Summit/summit-bar-chart.png"
+                    alt="bar chart for the world dataviz prize project"
+                />
+            </div>
+
+            <div class="body-section">
                 <div class="section-title">
                     <h2>TOOLS</h2>
                 </div>

@@ -10,6 +10,7 @@
 
     import WorksUndp from './works/WorksUNDP.svelte';
     import WorksSummit from "./works/WorksSummit.svelte";
+    import WorksKaggle22 from './works/WorksKaggle22.svelte';
 
     let index, offset, progress;
 </script>
@@ -25,12 +26,14 @@
         <div slot="foreground">
             <WorksSummit index={0} scrollInfo={{index, offset, progress}}/>
             <WorksUndp index={1} scrollInfo={{index, offset, progress}}/>
+            <WorksKaggle22 index={2} scrollInfo={{index, offset, progress}}/>
         </div>
-      </Scroller>
-    <Summit />
-    <Undp />
+    </Scroller>
+
+    <!-- <Summit /> -->
+    <!-- <Undp /> -->
     <B2P />
-    <Kaggle22 />
+    <!-- <Kaggle22 /> -->
     <!-- <Kaggle /> -->
 </div>
 
