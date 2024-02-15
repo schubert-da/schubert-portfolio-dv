@@ -33,8 +33,8 @@
     </Scroller>
 
     <!-- <Summit /> -->
-    <Revisual />
-    <B2P />
+    <!-- <Revisual />-->
+    <!-- <B2P />  -->
     <!-- <Kaggle22 /> -->
     <!-- <Kaggle /> -->
 </div>

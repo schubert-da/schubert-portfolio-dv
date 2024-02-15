@@ -84,6 +84,14 @@
                     amazing stuff we're working on!
                 </div>
             </div>
+
+            <div class="body-section">
+                <img
+                    src="/projects/Revisual/rvl-data-bank.png"
+                    alt="a data explorer showing a line chart of mobile subscription 
+                    data for several countries"
+                />
+            </div>
             
             <div class="body-section">
                 <div class="section-title">
@@ -100,27 +108,6 @@
                     with the recent launch of the firm, very few are accessible 
                     to the public as of yet. So I will update this section as 
                     and when things are rolled out.
-                </div>
-            </div>
-
-            <div class="body-section">
-                <img
-                    src="/projects/Revisual/rvl-data-bank.png"
-                    alt="a data explorer showing a line chart of mobile subscription 
-                    data for several countries"
-                />
-            </div>
-
-            <div class="body-section">
-                <div class="section-title">
-                    <h2>TOOLS</h2>
-                </div>
-                <div class="section-desc">
-                    The entire project was completed with D3 and Svelte.
-                    <br>
-                    An interesting detail is that not a single SVG was used for any of the charts 
-                    throughout the project. All graphics were created with basic HTML elements manipulated
-                    with Svelte based on the data.
                 </div>
             </div>
         </div>
