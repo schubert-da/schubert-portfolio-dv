@@ -132,11 +132,11 @@
 
 <style lang="scss">
     .work-container--redesign {
-        &.image-track-1 {
+        .image-track-1 {
             background-color: #fff;
         }
 
-        &.image-track-2 {
+        .image-track-2 {
             background-color: #fff;
         }
     }
