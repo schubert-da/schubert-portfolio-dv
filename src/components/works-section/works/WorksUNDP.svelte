@@ -28,14 +28,14 @@
         <div class="image-container">
             <div class="image-track image-track-1">
                 <img
-                    src="/projects/UNDP/undp-bars.png"
+                    src="projects/UNDP/undp-bars.png"
                     alt="stacked bar charts for UNDP project"
                     style="transform: translate(-40%, {computeImageScroll( 150, 300, scrollInfo.index)}px);"
                 />
             </div>
             <div class="image-track image-track-2">
                 <img
-                    src="/projects/UNDP/undp-blocks.png"
+                    src="projects/UNDP/undp-blocks.png"
                     alt="tile chart for UNDP project"
                     style="transform: translate(-5%, {computeImageScroll( -400, 300, scrollInfo.index, true)}px);"
                 />
@@ -109,7 +109,7 @@
 
             <div class="body-section">
                 <img
-                    src="/projects/UNDP/undp-blocks.png"
+                    src="projects/UNDP/undp-blocks.png"
                     alt="tile chart for UNDP project"
                 />
             </div>

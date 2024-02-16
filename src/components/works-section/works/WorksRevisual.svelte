@@ -28,14 +28,14 @@
         <div class="image-container">
             <div class="image-track image-track-1">
                 <img
-                    src="/projects/Revisual/rvl-career-overview.png"
+                    src="projects/Revisual/rvl-career-overview.png"
                     alt="stacked bar charts for UNDP project"
                     style="transform: translate(-33%, {computeImageScroll( 150, 300, scrollInfo.index)}px);"
                 />
             </div>
             <div class="image-track image-track-2">
                 <img
-                src="/projects/Revisual/rvl-data-bank.png"
+                src="projects/Revisual/rvl-data-bank.png"
                 alt="a streamgraph depicting my evolution as a data visualization developer"
                 style="transform: translate(-15%, {computeImageScroll( -300, 300, scrollInfo.index, true)}px);"
                 />
@@ -87,7 +87,7 @@
 
             <div class="body-section">
                 <img
-                    src="/projects/Revisual/rvl-data-bank.png"
+                    src="projects/Revisual/rvl-data-bank.png"
                     alt="a data explorer showing a line chart of mobile subscription 
                     data for several countries"
                 />

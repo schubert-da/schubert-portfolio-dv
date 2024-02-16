@@ -28,14 +28,14 @@
         <div class="image-container">
             <div class="image-track image-track-1">
                 <img
-                    src="/projects/Kaggle22/line-chart.png"
+                    src="projects/Kaggle22/line-chart.png"
                     alt="stacked bar charts for UNDP project"
                     style="transform: translate(-40%, {computeImageScroll( 150, 300, scrollInfo.index)}px);"
                 />
             </div>
             <div class="image-track image-track-2">
                 <img
-                    src="/projects/Kaggle22/area-bi.png"
+                    src="projects/Kaggle22/area-bi.png"
                     alt="tile chart for UNDP project"
                     style="transform: translate(-34%, {computeImageScroll( -400, 300, scrollInfo.index, true)}px);"
                 />
@@ -96,7 +96,7 @@
 
             <div class="body-section">
                 <img
-                    src="/projects/Kaggle22/table.png"
+                    src="projects/Kaggle22/table.png"
                     alt="tile chart for UNDP project"
                 />
             </div>

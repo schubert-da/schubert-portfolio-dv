@@ -28,14 +28,14 @@
         <div class="image-container">
             <div class="image-track image-track-1">
                 <img
-                    src="/projects/Summit/summit-maps.png"
+                    src="projects/Summit/summit-maps.png"
                     alt="map for the world dataviz prize project"
                     style="transform: translate(-10%, {computeImageScroll( 10, 300, scrollInfo.index)}px);"
                 />
             </div>
             <div class="image-track image-track-2">
                 <img
-                    src="/projects/Summit/summit-bar-chart.png"
+                    src="projects/Summit/summit-bar-chart.png"
                     alt="bar chart for the world dataviz prize project"
                     style="transform: translate(-2%, {computeImageScroll( -200, 300, scrollInfo.index, true)}px);"
                 />
@@ -104,7 +104,7 @@
 
             <div class="body-section">
                 <img
-                    src="/projects/Summit/summit-bar-chart.png"
+                    src="projects/Summit/summit-bar-chart.png"
                     alt="bar chart for the world dataviz prize project"
                 />
             </div>
